@@ -64,6 +64,11 @@ nav {
   font-weight: 400;
   letter-spacing: 2px;
 }
+.brand a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 
 .nav-wrapper {
     display: flex;
@@ -280,7 +285,7 @@ button {
   border-radius: 20px;
   transition: 0.6s;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 button:focus {
@@ -332,7 +337,7 @@ transition: .7s;
   display: none;
 }
 /* Responsive*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .brand{
     padding-top: 10px;
   }
