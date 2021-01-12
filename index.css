@@ -323,6 +323,12 @@ transform: translateX(300px) skewX(-15deg);
 opacity: 1;
 transition: .7s;
 }
+.discripton {
+  display: none;
+}
+.mobilePhoto {
+  display: none;
+}
 /* Responsive*/
 @media screen and (max-width: 768px) {
   .brand{
@@ -367,6 +373,39 @@ transition: .7s;
     }
     .photo {
       display: none;
+    }
+    .projectTitle {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .previousProject {
+      text-align: center;
+    }
+    .dfWebText h1 {
+      font-size: 32px;
+      text-align: center;
+      padding-bottom: 8px;
+    }
+    .dfWebText h4 {
+      display: none;
+    }
+    .discripton {
+      display:block;
+      font-size:16px;
+      color: #646464;
+      font-weight:600;
+      word-spacing: 8px;
+      padding-bottom: 13px;
+    }
+
+    .photo3 {
+      display: none;
+    }
+    .mobilePhoto {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 16px;
     }
 }
 
