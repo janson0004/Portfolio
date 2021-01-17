@@ -94,7 +94,10 @@ nav {
     max-width: 400px;
     margin-left: auto;
 }
-
+.buttonHref {
+    text-decoration: none;
+    color: white;
+}
 button {
     display: inline-block;
     font-size: 14px;
@@ -136,7 +139,7 @@ button:focus {
   }
   
   button:hover {
-   background: #a3a3a3;
+   /*background: #a3a3a3;*/
    cursor: pointer;
   }
   
@@ -160,8 +163,12 @@ button:focus {
     min-width: 200px;
     min-height: 500px;
     text-align: center;
-   
+    width: 100%;
 }
+.programmingContainer {
+    padding-right: 20px;
+}
+
 .mySkill {
     display: flex;
     justify-content: center;
@@ -287,10 +294,7 @@ footer {
   .copyright {
     color: #c7c7c7;
     font-size: 13px;
-    position: absolute;
-    left:50%;
-    bottom: 20px;
-    transform: translateX(-50%);  
+    padding-bottom: 20px;
   }
   
   .social-icons i {
@@ -309,9 +313,13 @@ footer {
   .social-icons a{
     text-decoration: none;
   }
-  
+  @media screen and (min-width: 768px) {
+      .glider-contain {
+          display:none;
+      }
+  }
 /* Reponsive */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
     .brand{
       padding-top: 10px;
     }
@@ -352,18 +360,33 @@ footer {
       .contactWrapper {
           padding: 35px;
       }
+      .myphoto {
+          display: none;
+      }
+      .name {
+          font-size: 23px;
+      }
+      .description {
+          font-size: 15px;
+      }
+      .mySkill {
+          display:none;
+      }
+    .text-wrapper {
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .gliderItem {
+        display: flex;  
+        justify-content: center;
+        padding: 20px;
+    }
+    .programming {
+        margin-right: 0;
+        margin: 0 20px;
+    }
+      
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

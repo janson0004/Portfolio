@@ -157,10 +157,7 @@ footer {
 .copyright {
   color: #c7c7c7af;
   font-size: 13px;
-  position: absolute;
-  left:50%;
-  bottom: 20px;
-  transform: translateX(-50%);  
+  padding-top: 20px;
 }
 
 .social-icons i {
@@ -373,9 +370,7 @@ transition: .7s;
         transition: all 0.5s;
     }
 
-    .copyright {
-      display:none;
-    }
+  
     .photo1{
       width: 100%;
       height:100%
@@ -415,6 +410,9 @@ transition: .7s;
       margin-left: auto;
       margin-right: auto;
       padding-top: 16px;
+    }
+    .copyright {
+      bottom: 0px;
     }
 }
 
